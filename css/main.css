@@ -163,4 +163,14 @@ label {
   font-size: 1.2em;
   margin-bottom: .5em;
 }
+
+input, textarea {
+  width: 100%;
+  padding: .8em;
+  margin-bottom: 1em;
+  border-radius: .3em;
+  border: 1px solid gray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 /*# sourceMappingURL=main.css.map */
