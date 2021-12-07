@@ -1,26 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;700&display=swap");
 
 :root {
-    --primary-color: #007AF3;
+  --primary-color: #007af3;
 }
 
 body {
-    background: #f2f2f2;
-    margin: 0px;
-    font-family: 'Poppins';
+  background: #f2f2f2;
+  margin: 0px;
+  font-family: "Poppins";
 }
 .navbar {
-    background: white;
-    padding: 1em;
-        .logo {
-            text-decoration: none;
-            font-weight: bold;
-            color: black;
-            font-size: 1.2em;
+  background: white;
+  padding: 1em;
+  .logo {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 1.2em;
 
-            span {
-                color: var(--primary-color);
-
-            }
-        }
+    span {
+      color: var(--primary-color);
+    }
+  }
 }
