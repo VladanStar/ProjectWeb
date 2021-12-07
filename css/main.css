@@ -25,6 +25,10 @@ body {
   color: var(--primary-color);
 }
 
+.navbar nav {
+  display: none;
+}
+
 .navbar .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -219,5 +223,11 @@ nav li a {
 
 nav li a:hover {
   font-weight: bold;
+}
+
+.mobile-menu-exit {
+  float: right;
+  margin: .5em;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */

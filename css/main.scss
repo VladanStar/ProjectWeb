@@ -24,9 +24,9 @@ body {
     }
   }
 
-// nav {
-//    // display: none;
-// }
+nav {
+   display: none;
+}
 .container {
     display: flex;
     place-content: space-between;
@@ -203,4 +203,9 @@ nav {
             }
         }
     }
+}
+.mobile-menu-exit {
+    float: right;
+    margin: .5em;
+    cursor: pointer;
 }
