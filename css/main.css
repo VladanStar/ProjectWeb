@@ -109,4 +109,22 @@ ul.features-list {
   -ms-grid-columns: (minmax(19rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
 }
+
+ul.features-list li {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  position: relative;
+}
+
+ul.features-list li:before {
+  content: '';
+  left: -2em;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("https://assets.codepen.io/2621168/bullet.svg");
+  background-size: contain;
+  margin-right: .5em;
+}
 /*# sourceMappingURL=main.css.map */
